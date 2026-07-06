@@ -821,10 +821,9 @@ select:focus {
 }
 
 .lalabot-bubble {
-  position: absolute;
-  bottom: calc(100% - 10px);
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  display: inline-block;
+  margin-bottom: 12px;
   background: var(--white);
   color: var(--deep);
   padding: 10px 16px;
@@ -852,17 +851,20 @@ select:focus {
 }
 
 .fixed-bubble {
-  bottom: 100%;
+  position: absolute;
+  bottom: calc(100% - 10px);
   left: 80%;
+  transform: translateX(-50%);
   text-align: center;
   line-height: 1.4;
 }
 
 .lalabot-inline {
   position: relative;
-  display: inline-block;
-  margin: 20px auto;
+  display: block; /* Change from inline-block to block to prevent inline overlap */
+  margin: 32px auto 24px; /* Increased margin to prevent crowding */
   width: 120px;
+  text-align: center;
   animation: float 4.5s ease-in-out infinite;
 }
 
