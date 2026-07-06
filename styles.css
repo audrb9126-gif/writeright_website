@@ -313,6 +313,15 @@ h1 {
   margin-top: 40px;
 }
 
+.launch-notice {
+  margin-top: 24px;
+  color: var(--teal-dark);
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
 .label,
 .kicker {
   margin: 0 0 16px;
