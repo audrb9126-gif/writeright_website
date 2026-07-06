@@ -794,6 +794,35 @@ select:focus {
   box-shadow: 0 12px 36px rgba(14, 165, 160, 0.35);
 }
 
+/* ===== Lalabot Mascot ===== */
+.lalabot-container {
+  position: fixed;
+  left: 32px;
+  bottom: 32px;
+  width: 140px;
+  z-index: 55;
+  animation: float 4.5s ease-in-out infinite;
+  pointer-events: none; /* So it doesn't block clicks underneath */
+}
+
+.lalabot {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 14px 28px rgba(12, 20, 32, 0.25));
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-18px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
 /* ===== Responsive: Tablet ===== */
 @media (max-width: 980px) {
   .site-header nav {
@@ -963,6 +992,12 @@ select:focus {
     bottom: 16px;
     left: 16px;
     text-align: center;
+  }
+
+  .lalabot-container {
+    width: 90px;
+    left: 16px;
+    bottom: 80px; /* Above the floating CTA */
   }
 
   .footer {
