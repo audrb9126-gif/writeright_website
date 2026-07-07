@@ -98,3 +98,45 @@ form?.addEventListener("submit", async (event) => {
     { passive: true }
   );
 })();
+
+/* ===== i18n (Internationalization) ===== */
+(() => {
+  if (typeof translations === 'undefined') return;
+
+  const langToggle = document.getElementById("langToggle");
+  const i18nElements = document.querySelectorAll("[data-i18n]");
+  
+  // Detect default language (ko if starts with ko, else en)
+  const userLang = navigator.language || navigator.userLanguage;
+  let currentLang = userLang.startsWith("ko") ? "ko" : "en";
+  
+  function setLanguage(lang) {
+    currentLang = lang;
+    const dict = translations[lang] || translations['en']; // fallback to en
+    
+    i18nElements.forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (dict[key]) {
+        el.innerHTML = dict[key];
+      }
+    });
+    
+    document.documentElement.lang = lang;
+    
+    // Update toggle button text (if current is ko, show ENG to switch to ENG)
+    if (langToggle) {
+      langToggle.textContent = lang === "ko" ? "ENG" : "KOR";
+      langToggle.setAttribute("data-i18n-lang", lang === "ko" ? "en" : "ko");
+    }
+  }
+
+  // Initialize
+  setLanguage(currentLang);
+
+  if (langToggle) {
+    langToggle.addEventListener("click", () => {
+      const targetLang = langToggle.getAttribute("data-i18n-lang");
+      setLanguage(targetLang);
+    });
+  }
+})();
