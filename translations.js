@@ -12,8 +12,8 @@ const translations = {
     feature1Desc: "앱 이탈 없이 메신저 위에서 바로 교정",
     feature2Title: "오답노트",
     feature2Desc: "반복 실수를 모아 나만의 복습 리스트로",
-    feature3Title: "7개 국어 지원",
-    feature3Desc: "영어·일본어·중국어 등 다국어 교정",
+    feature3Title: "전 세계 17개 국어 완벽 지원",
+    feature3Desc: "영어·일본어·중국어부터 아랍어·힌디어까지 다국어 동시 교정",
     
     heroBtnPrimary: "베타 알림 받기",
     heroBtnSecondary: "실제 MVP 보기",
@@ -92,8 +92,8 @@ const translations = {
     feature1Desc: "Corrects your sentences instantly without switching apps.",
     feature2Title: "Review Notes",
     feature2Desc: "Automatically saves your repeated mistakes for personalized review.",
-    feature3Title: "7 Languages Support",
-    feature3Desc: "Supports English, Japanese, Chinese, and more.",
+    feature3Title: "Supports 17 Languages Globally",
+    feature3Desc: "From English and Japanese to Arabic and Hindi, learn any language instantly.",
     
     heroBtnPrimary: "Join Beta Waitlist",
     heroBtnSecondary: "See MVP Demo",
@@ -172,8 +172,8 @@ const translations = {
     feature1Desc: "アプリを切り替えずにメッセンジャー上で即座に添削",
     feature2Title: "復習ノート",
     feature2Desc: "繰り返す間違いを集めて自分だけの復習リストに",
-    feature3Title: "7カ国語対応",
-    feature3Desc: "英語・日本語・中国語などの多言語添削",
+    feature3Title: "世界17カ国語を完全サポート",
+    feature3Desc: "英語や日本語からアラビア語、ヒンディー語まで、多言語を同時に添削",
     
     heroBtnPrimary: "ベータ版の通知を受け取る",
     heroBtnSecondary: "MVPデモを見る",
