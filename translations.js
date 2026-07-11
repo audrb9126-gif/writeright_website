@@ -158,5 +158,85 @@ const translations = {
     
     fixedBubble: "Chat naturally<br/>without translators! ✨",
     floatingCta: "Get Notified"
+  },
+  ja: {
+    navProblem: "問題",
+    navProof: "動作画面",
+    navWaitlist: "ベータ版登録",
+    headerCta: "通知を受け取る",
+    
+    heroTitle: "チャット画面で直接添削する<br />AI言語チューター",
+    heroDesc: "翻訳アプリを開いてコピー＆ペーストする手間はもう不要。<br />WriteRightはメッセンジャーを離れずに、リアルタイムで文法を添削します。",
+    
+    feature1Title: "チャット内添削",
+    feature1Desc: "アプリを切り替えずにメッセンジャー上で即座に添削",
+    feature2Title: "復習ノート",
+    feature2Desc: "繰り返す間違いを集めて自分だけの復習リストに",
+    feature3Title: "7カ国語対応",
+    feature3Desc: "英語・日本語・中国語などの多言語添削",
+    
+    heroBtnPrimary: "ベータ版の通知を受け取る",
+    heroBtnSecondary: "MVPデモを見る",
+    heroLaunchNotice: "🎉 2026年9月 正式リリース予定",
+    
+    problemKicker: "Stop Switching Apps",
+    problemTitle: "英語の返信をするために<br />何回翻訳アプリを開いていますか？",
+    problemBubble: "まだ翻訳アプリでコピペしてますか？ 😓",
+    problemDesc: "WriteRightは、会話の流れを断ち切るコピペやアプリ切り替えの手間を省き、実際の会話の中で自然に学べるようにします。",
+    
+    poster1Tag: "Before / After",
+    poster1Title: "翻訳アプリの10ステップから<br />チャット画面の3ステップへ",
+    
+    benefit1Title: "チャット画面のまま",
+    benefit1Desc: "メッセンジャー画面を離れることなく、すぐに添削の提案を確認できます。",
+    benefit2Title: "表現まで自然に",
+    benefit2Desc: "単語の翻訳ではなく、実際の会話に合った自然な文脈に修正します。",
+    benefit3Title: "間違いを学習に",
+    benefit3Desc: "よく間違える表現を集め、自分だけの復習ノートで学習できます。",
+    
+    poster2Tag: "AI Tutor",
+    poster2Title: "学習アプリを開く前に<br />会話から始まります",
+    
+    proofKicker: "Real MVP Screen",
+    proofTitle: "実際の3ステップ添削フロー",
+    proofDesc: "メッセージを入力すると、AIがエラーを検知し、オーバーレイ通知で添削結果を表示します。",
+    
+    step1Title: "入力",
+    step1Desc: "I am love you.",
+    step2Title: "検知",
+    step2Desc: "AIが文法や表現のエラーを通知",
+    step3Title: "適用",
+    step3Desc: "I love you.",
+    
+    advKicker: "Supercharged Features",
+    advTitle: "単なる翻訳機を超えた<br />完璧な言語チューター",
+    adv1Title: "詳細レポート",
+    adv1Desc: "単なる間違いの指摘にとどまりません。なぜ間違えたのか、自分の弱点は何なのか、AIが詳細に分析したレポートを提供します。",
+    adv2Title: "AIロールプレイング",
+    adv2Desc: "実際のネイティブスピーカーと話しているかのように、AIチューターと様々なシチュエーションを練習し、実践感覚を養いましょう。",
+    adv3Title: "シャドータイピング",
+    adv3Desc: "添削された完璧な文章を見ながら、自分でタイピングしてみましょう。ただ見るよりもはるかに早く語学力が向上します。",
+    adv4Title: "受信メッセージ クイック翻訳",
+    adv4Desc: "相手から送られてきた外国語のメッセージを翻訳するためにアプリを離れる必要はありません。コピーするだけで、意味や発音、スラングのニュアンスまでフローティングポップアップが即座に教えてくれます。",
+    
+    audienceKicker: "Recommended For",
+    audienceTitle: "こんな方にオススメです",
+    audience1: "外国人の友人と毎日チャットする方",
+    audience2: "英語の返信に時間がかかる国際カップル",
+    audience3: "言語交換アプリで自然に話したい方",
+    audience4: "翻訳機への依存を減らしたい語学初心者",
+    
+    waitlistTag: "Coming this September",
+    waitlistTitle: "WriteRightベータ版の最新情報をいち早くお届けします。",
+    waitlistDesc: "メールアドレスをご登録いただくと、今年9月の正式リリース前に、ベータテストの優先案内や特別なリリース特典をお知らせします。",
+    waitlistBubble: "事前登録してベータ特典をゲット！ 🎁",
+    waitlistCtaDesc: "下のボタンから簡単なアンケートにご回答いただくと、<br />ベータテスト募集やリリース情報をいち早くお届けします。",
+    waitlistBtn: "📝 ベータテストに申し込む",
+    waitlistNote: "入力された情報は、ベータ版の案内およびリリース情報の配信にのみ使用されます。",
+    
+    footerDesc: "AI correction tutor for real conversations",
+    
+    fixedBubble: "翻訳機なしで<br/>直接会話しましょう！ ✨",
+    floatingCta: "通知を受け取る"
   }
 };
