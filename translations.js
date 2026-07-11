@@ -20,7 +20,7 @@ const translations = {
     heroLaunchNotice: "🎉 2026년 9월 정식 런칭 예정",
     
     problemKicker: "Stop Switching Apps",
-    problemTitle: "영어 답장 하나 보내려고<br />번역기를 몇 번이나 켜고 있나요?",
+    problemTitle: "외국어 답장 하나 보내려고<br />번역기를 몇 번이나 켜고 있나요?",
     problemBubble: "아직도 번역기로 복붙하시나요? 😓",
     problemDesc: "WriteRight는 대화 흐름을 끊는 복사, 붙여넣기, 앱 전환 과정을 줄이고 실제 대화 속에서 바로 배울 수 있게 만듭니다.",
     
@@ -60,11 +60,11 @@ const translations = {
     adv4Desc: "상대방의 메시지를 번역하기 위해 앱을 전환할 필요가 없습니다. 메신저에서 메시지를 '복사'하기만 하면, WriteRight 플로팅 팝업이 즉시 나타납니다. 팝업을 탭하면 정확한 번역은 물론, 원어민의 발음 기호와 슬랭이 섞인 미묘한 뉘앙스까지 그 자리에서 바로 알려줍니다.",
     
     audienceKicker: "Recommended For",
-    audienceTitle: "이런 사람에게 먼저 필요합니다",
-    audience1: "외국인 친구와 매일 대화하는 사람",
-    audience2: "영어 답장이 늦어지는 국제 커플",
-    audience3: "언어교환 앱에서 자연스럽게 말하고 싶은 사람",
-    audience4: "번역기 의존을 줄이고 싶은 영어 초보",
+    audienceTitle: "이런 분에게 완벽한 서비스입니다",
+    audience1: "번역기 앱을 왔다 갔다 하느라 대화의 흐름이 끊기는 분",
+    audience2: "외국인 연인·친구와 끊김 없이 대화를 이어가고 싶은 분",
+    audience3: "내 문법이 맞는지 몰라 전송 버튼 누르기가 망설여지는 분",
+    audience4: "단순한 번역을 넘어 내가 왜 틀렸는지 상세한 교정 이유를 알고 싶은 분",
     
     waitlistTag: "Coming this September",
     waitlistTitle: "WriteRight 베타 오픈 소식을 가장 먼저 받아보세요.",
@@ -140,11 +140,11 @@ const translations = {
     adv4Desc: "Never leave your messenger app just to translate a received message. Simply 'copy' any foreign message in your chat, and the WriteRight floating popup will instantly appear. Tap it to see not only the exact translation, but also native pronunciation guides and the subtle nuances of any slang used.",
     
     audienceKicker: "Recommended For",
-    audienceTitle: "You need this first if you are:",
-    audience1: "Someone chatting with foreign friends daily",
-    audience2: "An international couple struggling with slow replies",
-    audience3: "Someone wanting to speak naturally on language exchange apps",
-    audience4: "A language beginner looking to reduce translator dependency",
+    audienceTitle: "This is perfect for you if:",
+    audience1: "You're tired of interrupting conversations to use translator apps",
+    audience2: "You want seamless chats with your foreign partner or friends",
+    audience3: "You hesitate to press send because you doubt your grammar",
+    audience4: "You want detailed explanations of your mistakes, not just simple translations",
     
     waitlistTag: "Coming this September",
     waitlistTitle: "Be the first to hear about the WriteRight Beta.",
@@ -180,7 +180,7 @@ const translations = {
     heroLaunchNotice: "🎉 2026年9月 正式リリース予定",
     
     problemKicker: "Stop Switching Apps",
-    problemTitle: "英語の返信をするために<br />何回翻訳アプリを開いていますか？",
+    problemTitle: "外国語の返信をするために<br />何回翻訳アプリを開いていますか？",
     problemBubble: "まだ翻訳アプリでコピペしてますか？ 😓",
     problemDesc: "WriteRightは、会話の流れを断ち切るコピペやアプリ切り替えの手間を省き、実際の会話の中で自然に学べるようにします。",
     
@@ -220,11 +220,11 @@ const translations = {
     adv4Desc: "相手からのメッセージを翻訳するために、毎回翻訳アプリを切り替えていませんか？もうメッセンジャーアプリを離れる必要はありません。受信したメッセージを「コピー」するだけで、WriteRightのフローティングポップアップが即座に表示されます。タップすれば正確な翻訳はもちろん、発音記号やスラングの微妙なニュアンスまでその場ですぐに教えてくれます。",
     
     audienceKicker: "Recommended For",
-    audienceTitle: "こんな方にオススメです",
-    audience1: "外国人の友人と毎日チャットする方",
-    audience2: "英語の返信に時間がかかる国際カップル",
-    audience3: "言語交換アプリで自然に話したい方",
-    audience4: "翻訳機への依存を減らしたい語学初心者",
+    audienceTitle: "こんな方に完璧なサービスです",
+    audience1: "翻訳アプリの往復で会話の流れが途切れてしまう方",
+    audience2: "外国人の恋人や友人とスムーズに会話を続けたい方",
+    audience3: "自分の文法に自信がなく、送信ボタンを押すのをためらってしまう方",
+    audience4: "単なる翻訳ではなく、なぜ間違えたのか詳細な理由を知りたい方",
     
     waitlistTag: "Coming this September",
     waitlistTitle: "WriteRightベータ版の最新情報をいち早くお届けします。",
