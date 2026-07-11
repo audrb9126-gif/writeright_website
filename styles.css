@@ -1108,3 +1108,68 @@ select:focus {
     border-radius: var(--radius-sm);
   }
 }
+
+/* Advanced Features Section */
+.advanced-features {
+  padding: clamp(60px, 10vw, 120px) clamp(20px, 5vw, 60px);
+  background: var(--bg-main);
+}
+
+.advanced-features .kicker {
+  color: var(--teal);
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.advanced-features h2 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  color: var(--deep);
+  line-height: 1.2;
+  margin-bottom: 48px;
+}
+
+.adv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.adv-card {
+  background: var(--white);
+  padding: 40px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  border: 1px solid rgba(226, 234, 239, 0.6);
+}
+
+.adv-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.adv-icon {
+  font-size: 40px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+.adv-card h3 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--deep);
+  margin-bottom: 16px;
+}
+
+.adv-card p {
+  color: var(--slate);
+  line-height: 1.6;
+  font-size: 16px;
+}
