@@ -649,6 +649,8 @@ h1 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 .step-line > div:hover {
@@ -1208,7 +1210,7 @@ select:focus {
   width: 100%;
   max-width: 260px;
   height: 480px;
-  margin: 20px auto 0;
+  margin: auto auto 0;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
