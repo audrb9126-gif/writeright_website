@@ -42,11 +42,12 @@ const translations = {
     proofDesc: "사용자가 메시지를 작성하면 AI가 오류를 감지하고, 오버레이 알림으로 교정 결과를 보여줍니다.",
     
     step1Title: "작성",
-    step1Desc: "I am love you.",
+    step1Desc: "원하는 문장을 작성 후 전송",
     step2Title: "감지",
     step2Desc: "AI가 문법과 표현 오류를 알림",
+    uiPopupDesc: "동사의 기본형은 일반적으로 'am' 뒤에 오지 않습니다. 동사가 올바른 형태인지 다시 확인하세요.",
     step3Title: "적용",
-    step3Desc: "I love you.",
+    step3Desc: "올바르게 교정된 문장으로 변경",
     
     advKicker: "Supercharged Features",
     advTitle: "단순한 번역기를 넘어선<br />완벽한 언어 튜터",
@@ -122,11 +123,12 @@ const translations = {
     proofDesc: "When you type a message, AI detects errors and shows correction results via an overlay notification.",
     
     step1Title: "Write",
-    step1Desc: "I am love you.",
+    step1Desc: "Write your message and hit send",
     step2Title: "Detect",
     step2Desc: "AI notifies grammar & expression errors.",
+    uiPopupDesc: "The base form of a verb typically does not follow 'am'. Please verify if the verb is in the correct form.",
     step3Title: "Apply",
-    step3Desc: "I love you.",
+    step3Desc: "Changes to the perfectly corrected sentence",
     
     advKicker: "Supercharged Features",
     advTitle: "More Than Just a Translator<br />Your Complete Language Tutor",
@@ -202,11 +204,12 @@ const translations = {
     proofDesc: "メッセージを入力すると、AIがエラーを検知し、オーバーレイ通知で添削結果を表示します。",
     
     step1Title: "入力",
-    step1Desc: "I am love you.",
+    step1Desc: "希望の文章を入力して送信",
     step2Title: "検知",
     step2Desc: "AIが文法や表現のエラーを通知",
+    uiPopupDesc: "動詞の基本形は通常 'am' の後には来ません。動詞が正しい形になっているか確認してください。",
     step3Title: "適用",
-    step3Desc: "I love you.",
+    step3Desc: "正しく添削された文章に変更されます",
     
     advKicker: "Supercharged Features",
     advTitle: "単なる翻訳機を超えた<br />完璧な言語チューター",

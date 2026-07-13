@@ -133,27 +133,77 @@
             사용자가 메시지를 작성하면 AI가 오류를 감지하고, 오버레이 알림으로 교정 결과를 보여줍니다.
           </p>
         </div>
-        <div class="proof-frame" data-reveal="zoom-in">
-          <img src="./assets/correction-flow.png" alt="WriteRight 실제 MVP 3단계 교정 플로우" />
-        </div>
       </section>
 
       <section class="steps-section">
         <div class="step-line">
+          <!-- Step 1 -->
           <div data-reveal="fade-up">
             <span>1</span>
             <h3 data-i18n="step1Title">작성</h3>
-            <p data-i18n="step1Desc">I am love you.</p>
+            <p data-i18n="step1Desc">원하는 문장을 작성 후 전송</p>
+            <div class="ui-phone">
+              <div class="ui-phone-header"><div class="ui-camera"></div></div>
+              <div class="ui-chat-header"><span class="ui-back">←</span> mykyu718@naver.com</div>
+              <div class="ui-chat-body">
+                <div class="ui-date">Wednesday, Apr 1 • 10:59 AM</div>
+                <div class="ui-floating-toolbar">
+                  <div class="ui-tool">✖</div><div class="ui-tool">↵</div><div class="ui-tool">😊</div><div class="ui-tool">US</div>
+                </div>
+              </div>
+              <div class="ui-input-area">
+                <div class="ui-input-box"><span>I am love</span> you.</div>
+                <div class="ui-send">▶</div>
+              </div>
+            </div>
           </div>
+          
+          <!-- Step 2 -->
           <div data-reveal="fade-up" data-delay="150">
             <span>2</span>
             <h3 data-i18n="step2Title">감지</h3>
             <p data-i18n="step2Desc">AI가 문법과 표현 오류를 알림</p>
+            <div class="ui-phone">
+              <div class="ui-phone-header"><div class="ui-camera"></div></div>
+              <div class="ui-chat-header"><span class="ui-back">←</span> mykyu718@naver.com</div>
+              <div class="ui-chat-body">
+                <div class="ui-date">Wednesday, Apr 1 • 10:59 AM</div>
+                <div class="ui-popup">
+                  <div class="ui-popup-title">👀 Noticed: am love</div>
+                  <div class="ui-popup-desc" data-i18n="uiPopupDesc">동사의 기본형은 일반적으로 'am' 뒤에 오지 않습니다. 동사가 올바른 형태인지 다시 확인하세요.</div>
+                  <div class="ui-popup-rec">💡 Recommendation: love</div>
+                  <div class="ui-popup-actions"><span>Ignore</span><span>Close</span></div>
+                </div>
+                <div class="ui-floating-toolbar">
+                  <div class="ui-tool">✖</div><div class="ui-tool">↵</div><div class="ui-tool">😊</div><div class="ui-tool">US</div>
+                </div>
+              </div>
+              <div class="ui-input-area">
+                <div class="ui-input-box"><span>I am love</span> you.</div>
+                <div class="ui-send">▶</div>
+              </div>
+            </div>
           </div>
+          
+          <!-- Step 3 -->
           <div data-reveal="fade-up" data-delay="300">
             <span>3</span>
             <h3 data-i18n="step3Title">적용</h3>
-            <p data-i18n="step3Desc">I love you.</p>
+            <p data-i18n="step3Desc">올바르게 교정된 문장으로 변경</p>
+            <div class="ui-phone">
+              <div class="ui-phone-header"><div class="ui-camera"></div></div>
+              <div class="ui-chat-header"><span class="ui-back">←</span> mykyu718@naver.com</div>
+              <div class="ui-chat-body">
+                <div class="ui-date">Wednesday, Apr 1 • 10:59 AM</div>
+                <div class="ui-floating-toolbar">
+                  <div class="ui-tool">✖</div><div class="ui-tool">↵</div><div class="ui-tool">😊</div><div class="ui-tool">US</div>
+                </div>
+              </div>
+              <div class="ui-input-area">
+                <div class="ui-input-box" style="color:#10a37f; font-weight:bold;">I love you.</div>
+                <div class="ui-send">▶</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
